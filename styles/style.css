@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-   
+
     margin: 0;
     padding: 0;
     letter-spacing: 1px;
@@ -71,7 +71,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-   
+
 }
 
 .button-1:hover {
@@ -199,7 +199,7 @@ footer {
     background-color: #161616;
     padding-top: 50px;
     padding-bottom: 50px;
-   
+
 }
 
 footer h1 {
@@ -291,7 +291,7 @@ footer hr {
         justify-content: center;
         text-align: center;
         margin: 0px;
-
+        border-radius: 15px;
     }
 
     header {
@@ -313,7 +313,6 @@ footer hr {
     .intro p {
         padding: 0 20px 30px 20px;
         margin: 0px;
-
     }
 
     .banner {
@@ -323,6 +322,39 @@ footer hr {
     .banner img {
         padding-top: 30px;
         padding-bottom: 30px;
+        margin-left: 0;
+    }
+}
+
+/* tablet media quary  */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .container {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    header {
+        padding: 30px;
+    }
+    .intro-content{
+        border-radius: 20px;
+    }
+    .intro{
+        width:60%;
+    }
+    .intro h1{
+padding-bottom: 30px;
+    }
+    .intro p{
+        margin:0;
+        padding-bottom: 30px;
+    }
+    .banner{
+        width:40%;
+    }
+    .banner img{
+        width:70%;
         margin-left: 0;
     }
 }
