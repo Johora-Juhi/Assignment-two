@@ -21,6 +21,7 @@ body {
     width: 1321px;
     margin: 0 auto;
     margin-top: 50px;
+   
 
 }
 
@@ -29,6 +30,8 @@ body {
     border-radius: 30px;
     background-color: #161616;
     overflow: hidden;
+    
+     
 }
 
 .intro-content:hover img {
@@ -109,6 +112,8 @@ body {
     display: flex;
     gap: 24px;
     align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 /* match quary  */
@@ -195,7 +200,7 @@ body {
 
 /* main swction end  */
 
-/* fotter  */
+/* footer  */
 footer{
     text-align: center;
     background-color: #161616;
@@ -238,4 +243,4 @@ footer hr{
     margin-left: 50px;
 
 }
-
+/* footer end  */
