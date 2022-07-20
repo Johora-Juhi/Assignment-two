@@ -1,6 +1,6 @@
-/* ----------------------
-         fonts 
----------------------- */
+/* --------------------
+           fonts 
+-----------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
@@ -15,9 +15,9 @@ body {
 
 }
 
-/* --------------------------
-header styles  
---------------------------  */
+/* ------------------------
+ header styles 
+ ----------------------- */
 
 .container {
 
@@ -101,13 +101,13 @@ header styles
 
 }
 
-/* ------------------
-      header end 
------------------- */
+/*--------------------
+ header end 
+ ------------------- */
 
-/* ---------------
-main section style 
---------------- */
+/* ------------------
+ main section style 
+ ------------------- */
 
 .match-info {
     display: flex;
@@ -117,9 +117,9 @@ main section style
     padding-bottom: 100px;
 }
 
-/* ------------------
-     match quary 
-     ------------- */
+/* ----------------------
+       match quary 
+       --------------- */
 .match-quary {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -142,14 +142,14 @@ main section style
     border-radius: 10px;
 }
 
-#blog {
+#upcoming-matches{
     color: white;
     background-color: #f44336;
 }
 
-/* ----------------
-   match blogs 
-   ------------- */
+/* --------------------
+     match blogs 
+     ---------------- */
 .matches {
     width: 80%;
     display: grid;
@@ -158,52 +158,28 @@ main section style
     margin: 0;
 
 }
-
 .match {
     border: 1px solid #f1eded;
     border-radius: 8px;
+    padding: 40px 25px;
+    text-align: center;
+    letter-spacing: 0;
+}
+.match p{
+    color: #9f9898;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.flag{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
 }
 
-.match img {
+.flag img{
     width: 100%;
 }
-
-.detail {
-    padding: 15px 22px;
-
-}
-
-.transferB button {
-    font-size: 16px;
-    padding: 5px 16px;
-    background-color: #ffffff;
-    border: 1px solid #f44336;
-    border-radius: 5px;
-    font-weight: 500;
-
-}
-
-.transferB:hover button {
-    background-color: #f44336;
-    color: white;
-}
-
-.match-detail {
-    font-weight: 600;
-    font-size: 18px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    letter-spacing: 0px;
-}
-
-.time {
-    color: #9f9898;
-}
-
-.fa-comment-dots {
-    margin-left: 20px;
-}
-
 .special-button {
     text-align: center;
     display: none;
@@ -220,13 +196,13 @@ main section style
 
 }
 
-/* ----------------
- main swction end 
----------------- */
+/* --------------------
+  main section end 
+  ------------------ */
 
-/* ----------------
-       footer  
-   -------------- */
+/* --------------------
+         footer 
+----------------------- */
 footer {
     text-align: center;
     background-color: #161616;
@@ -278,9 +254,9 @@ footer hr {
     font-size: 40px;
 }
 
-/* ----------------
-    footer end  
-    ------------ */
+/* ----------------------
+      footer end 
+      ---------------- */
 
 /*-----------------------
        media quary 
@@ -332,8 +308,8 @@ footer hr {
         margin-left: 0;
     }
 
-    /*--------------
-       main quary 
+    /* -------------
+    main quary 
     ------------- */
 
     main {
@@ -368,7 +344,7 @@ footer hr {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    /*----------------
+    /* ---------------
         footer quary 
     --------------- */
     footer {
@@ -403,9 +379,9 @@ footer hr {
     }
 }
 
-/* -------------------
-  tablet media quary  
---------------------*/
+/* ------------------
+tablet media quary 
+------------------ */
 
 @media only screen and (min-width:689px) and (max-width:992px) {
     .container {
@@ -446,8 +422,8 @@ footer hr {
         margin-left: 0;
     }
 
-    /*--------------
-       main part 
+    /* -------------
+        main part 
     ------------- */
     main {
         padding: 30px;
